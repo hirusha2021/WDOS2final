@@ -1,0 +1,277 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.95),rgba(255,255,255,0.95)), url(images/a5.png);
+    
+}
+ 
+#mainNavm1 {
+    position:sticky;
+    top:0%;
+    
+    
+}
+
+#mainNavm1 ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    background-color:#2edf27;
+    flex-flow:row wrap;
+    overflow: hidden;
+}
+
+#mainNavm1 li {
+    flex-grow:1;
+    width:min-content;
+    border:.1em rgb(89, 143, 138) solid;
+
+}
+
+#mainNavm1 a {
+    background-size:30px auto;
+    padding: 4px;
+    background-repeat:no-repeat;
+    background-position:center;
+    min-height:30px;
+    line-height:30px;
+    text-decoration:none;
+    display:block;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+#mainNavm1 li a:hover{
+    background-color:black;
+    color: white;
+
+}
+
+#banner1{
+    width: 100%;
+    height: auto;
+}
+
+
+#health {
+    width:150px;
+    height: 150px;
+    float: left;
+    padding-left: 2%;
+    
+}
+
+#healthp {
+    padding-left:13%;
+}
+
+
+
+#cost {
+    width:150px;
+    height: 150px;
+    float: right;
+    padding-right: 2%;
+}
+
+#costp {
+    padding-left:1%;
+
+}
+
+
+
+
+#Maintenance {
+    width:150px;
+    height: 150px;
+    float: left;
+    padding-left: 2%;
+}
+
+#Maintenancep {
+    padding-left:13%;
+
+}
+
+
+
+
+
+
+#better {
+    width:150px;
+    height: 150px;
+    float: right;
+    padding-right: 2%;
+    
+}
+
+#betterp {
+    padding-left:1%;
+    padding-right: 2%;
+
+}
+
+footer{
+    background:#3d453e;
+    padding:1em;
+    color:#eb932b;
+}
+
+footer ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+footer a{
+    text-decoration:none;
+    color:#eb932b;
+    
+}
+
+
+.footerimg{
+    float: left;
+    padding-left:43%;
+    padding-top: 1%;
+}
+/*------------------------------------------------------------------------------------------*/
+
+
+#Container{
+    min-width:240px;
+    max-width:1200px;
+    margin:0 auto;
+    background: #f2f2f2;
+}
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 850px){
+   
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.95),rgba(255,255,255,0.95)), url(images/a5.png);
+    
+}
+ 
+#mainNav1 {
+    position:sticky;
+    top:0%;
+    
+    
+}
+
+#mainNavm1 ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    background-color:#2edf27;
+    flex-flow:row wrap;
+    overflow: hidden;
+}
+
+#mainNavm1 li {
+    flex-grow:1;
+    width:min-content;
+    border:.1em rgb(89, 143, 138) solid;
+
+}
+
+#mainNavm1 a {
+    background-size:30px auto;
+    padding: 4px;
+    background-repeat:no-repeat;
+    background-position:center;
+    min-height:30px;
+    line-height:30px;
+    text-decoration:none;
+    display:block;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+#mainNavm1 li a:hover{
+    background-color:black;
+    color: white;
+
+}
+
+
+#health #cost {
+    width:150px;
+    height: 150px;
+    float: left;
+    padding-left: 2%;
+    
+}
+
+#healthp {
+    padding-left:13%;
+}
+
+
+
+#costp {
+    padding-left:1%;
+
+}
+
+
+
+
+#Maintenance {
+    width:150px;
+    height: 150px;
+    float: left;
+    padding-left: 2%;
+}
+
+#Maintenancep {
+    padding-left:13%;
+
+}
+
+
+
+
+
+
+#better {
+    width:150px;
+    height: 150px;
+    float: right;
+    padding-right: 2%;
+    
+}
+
+#betterp {
+    padding-left:1%;
+    padding-right: 2%;
+
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+#Container{
+    min-width:240px;
+    max-width:1200px;
+    margin:0 auto;
+    background: #f2f2f2;
+}
+ 
+}
